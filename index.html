@@ -43,52 +43,6 @@
       position:relative;
     }
 
-    /* Avatar card */
-    .avatar-card{
-      width:220px;
-      margin:0 auto 22px;
-      background:#19a8ff;
-      border:var(--thick) solid var(--ink);
-      border-radius:26px;
-      box-shadow: var(--shadow);
-      aspect-ratio: 1/1;
-      display:grid;
-      place-items:center;
-      position:relative;
-      overflow:hidden;
-    }
-    .avatar-card img{
-      width:80%;
-      height:auto;
-      border-radius:18px;
-      object-fit:cover;
-      user-select:none;
-      pointer-events:none;
-      filter: drop-shadow(0 8px 18px rgba(0,0,0,.25));
-    }
-
-    /* vertical connector from avatar to welcome */
-    .avatar-card::after{
-      content:"";
-      position:absolute;
-      left:50%;
-      translate:-50% 0;
-      bottom:-22px;
-      width:0;
-      height:22px;
-      border-left: var(--thick) solid var(--ink);
-    }
-
-    /* Generic card base */
-    .card{
-      position:relative;
-      border-radius: var(--radius);
-      border: var(--thick) solid var(--ink);
-      box-shadow: var(--shadow);
-      padding:26px 26px;
-      background:white;
-    }
-
     .welcome{
       background: var(--card);
       text-align:center;
