@@ -67,4 +67,10 @@ body {
   align-items: center;
   border: 2px solid #000;
   font-size: 26px;
+  color: #000;         /* makes the icon black */
+  text-decoration: none;
+}
+
+.email i {
+  color: #000;         /* force icon color to black */
 }
