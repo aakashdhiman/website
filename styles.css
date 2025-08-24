@@ -81,7 +81,17 @@ body {
 
 /* Put this in your CSS file */
 .site-footer{
-  position: fixed;              /* stays at the bottom of the screen */
+  html, body{ height: 100%; }
+body{
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+.site-footer{
+  position: static;
+  margin: 24px auto 16px;
+}
+             /* stays at the bottom of the screen */
   left: 50%;
   bottom: 16px;                 /* lift slightly from the edge */
   transform: translateX(-50%);
@@ -95,7 +105,7 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,.06);
 }
 
-.site-footer .akki-link{
+.site-footer .Aakash-link{
   text-decoration: none;
   color: #000;
   border-bottom: 2px solid #000;
