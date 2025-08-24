@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 40px 0;   /* add smaller top & bottom padding */
   font-family: 'Poppins', sans-serif;
   background: #fff;
   display: flex;
