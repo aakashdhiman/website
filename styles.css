@@ -79,21 +79,14 @@ body {
   color: #000;
 }
 
-/* Put this in your CSS file */
 .site-footer{
   html, body{ height: 100%; }
-body{
-  min-height: 100dvh;
-  display: flex;
-  flex-direction: column;
-}
+
 .site-footer{
   position: static;
   margin: 24px auto 16px;
-}
-             /* stays at the bottom of the screen */
   left: 50%;
-  bottom: 16px;                 /* lift slightly from the edge */
+  bottom: 16px;
   transform: translateX(-50%);
   background: #ffffff;
   border: 2px solid #000;
